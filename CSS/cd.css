@@ -1,0 +1,74 @@
+.topo{
+    text-align: center;
+    font-size: 60PX;
+    background-color: yellow;
+    height: 150PX;
+}
+
+
+.stopo{
+    text-align: center;
+    color: rgb(97, 80, 48);
+    font-style: italic;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: antiquewhite;
+    padding: 10px;
+}
+
+
+.pizzas{
+    align-items: center;
+    text-align: center;
+    padding-top: 25px;
+    padding: 25px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 50px;
+}
+
+
+.bu{
+    width: 350px;
+    height: 30px;
+    color: rgb(0, 0, 0)
+}
+
+
+.va{
+    font-size: 25px;
+    color: green;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+.sabor{
+    align-items: center;
+    background-color: burlywood;
+    width: 350px;
+    border-radius: 13px;
+
+
+}
+
+
+.sabor img{
+    width: 350px;
+    border-radius: 13px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    object-fit: cover;
+}
+
+
+.tit{
+    color: rgb(94, 84, 66);
+    font-family: 'Anton', sans-serif;
+    text-align: center;
+}
+
+
+.sab{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
