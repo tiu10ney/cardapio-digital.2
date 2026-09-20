@@ -1,7 +1,7 @@
 .topo{
     text-align: center;
     font-size: 60PX;
-    background-color: yellow;
+    background-color: red;
     height: 150PX;
 }
 
@@ -62,7 +62,7 @@
 
 
 .tit{
-    color: rgb(94, 84, 66);
+    color: rgb(0, 230, 11);
     font-family: 'Anton', sans-serif;
     text-align: center;
 }
