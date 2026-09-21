@@ -1,22 +1,44 @@
+.inicio{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 50px;
+    background-color:rgb(153, 12, 12);
+    font-family: Arial, sans-serif;
+}
+
+ .entra{
+   color: rgb(204, 175, 11);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    align-items: center;
+    display: grid;
+    padding: 20px 1250px;
+} 
+
+
+
 .topo{
     text-align: center;
-    font-size: 60PX;
+    font-size: 60px;
     background-color: red;
     height: 150PX;
+    color: aliceblue;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 
 .stopo{
     text-align: center;
-    color: rgb(97, 80, 48);
+    color: gold;
     font-style: italic;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: antiquewhite;
-    padding: 10px;
+    background-color: rgb(153, 12, 12);
+    padding: 5px;
 }
 
 
 .pizzas{
+    color: aliceblue;
     align-items: center;
     text-align: center;
     padding-top: 25px;
@@ -24,26 +46,27 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 50px;
+    background-color:  rgb(218, 0, 0)
 }
 
 
 .bu{
     width: 350px;
     height: 30px;
-    color: rgb(0, 0, 0)
+    color: rgb(218, 0, 0)
 }
 
 
 .va{
     font-size: 25px;
-    color: green;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: gold;
 }
 
 
 .sabor{
     align-items: center;
-    background-color: burlywood;
+    background-color:  rgb(153, 12, 12);
     width: 350px;
     border-radius: 13px;
 
@@ -62,10 +85,14 @@
 
 
 .tit{
-    color: rgb(0, 230, 11);
+    
     font-family: 'Anton', sans-serif;
     text-align: center;
+    color:  rgb(179, 7, 7);
+    font-size: 50px;
+    padding: 1px;
 }
+
 
 
 .sab{
