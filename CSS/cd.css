@@ -9,7 +9,7 @@
     font-family: Arial, sans-serif;
 }
  
-.link{
+.guia{
     font-weight: bold;
     font-size: 16px;
     display: flex;
@@ -17,12 +17,13 @@
 
 }
 
-.link a{
+.guia a{
+    
     color: aliceblue;
     position: relative;
 }
 
-.link a::after{
+.guia a::after{
     content: " ";
     width: 100%;
     height: 4px;
@@ -33,12 +34,12 @@
     transition: 0.5s ease-in-out;
 }
 
-link:hover ::after{
+.guia:hover ::after{
     width: 200%;
    
 }
 
- .entra{
+.entra{
     color: gold;
     text-decoration: none;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
